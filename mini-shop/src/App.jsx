@@ -2,6 +2,8 @@ import "./App.css";
 import { Cart } from "./components/Cart/Cart";
 import { Header } from "./components/Header/Header";
 import { ProductList } from "./components/PorductList/ProductList";
+import { useCart } from "./hooks/useCart";
+import { PRODUCTS } from "./data/products";
 
 export default function App() {
   const {
